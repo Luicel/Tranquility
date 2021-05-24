@@ -295,9 +295,9 @@ GameObject:
   - component: {fileID: 7242843401856291720}
   - component: {fileID: 7242843401856291721}
   - component: {fileID: 7242843401856291718}
-  - component: {fileID: 7242843401856291717}
   - component: {fileID: 7242843401856291716}
   - component: {fileID: 7242843401856291715}
+  - component: {fileID: 7500736090830697449}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -489,20 +489,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7242843401856291717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7242843401856291726}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98b766f4fdbbaae408349ddb95bde435, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  daggerHitbox: {fileID: 0}
-  daggerOutTime: 0.5
 --- !u!114 &7242843401856291716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -527,6 +513,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 16cda285ece8aff47983a66b0ca74626, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7500736090830697449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7242843401856291726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cbeb5394c27d34a9fb245adf64a247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7242843402112802584

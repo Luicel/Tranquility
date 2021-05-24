@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: 1e53ab678957a94468828603cab1671e
+  - enabled: 1
+    path: Assets/Scenes/ControlsScreen.unity
+    guid: 765261d88da1fcf41a44c34857ab1eec
+  - enabled: 1
+    path: Assets/Scenes/Prologue.unity
+    guid: d96aaa513f2b7c14887737fe41a4c782
+  - enabled: 1
+    path: Assets/Scenes/RealmOfLight.unity
+    guid: ad71c85570569fd40a04408ae95d58b7
+  - enabled: 1
+    path: Assets/Scenes/Epilogue.unity
+    guid: 67ec49fffafa5f04a8db47fc6e0a7c15
   m_configObjects: {}

@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Damager
+  - Shield
+  - PongBall
   layers:
   - Default
   - TransparentFX
@@ -15,7 +18,7 @@ TagManager:
   - 
   - 
   - Ground
-  - 
+  - Ball
   - 
   - 
   - 

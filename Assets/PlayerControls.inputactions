@@ -22,14 +22,6 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Dagger",
-                    "type": "Button",
-                    "id": "f4192c76-8663-42d6-b4a4-10022f9ece5a",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
                     "name": "Shield",
                     "type": "Value",
                     "id": "b4c50dc8-4612-49fb-9a21-276ca7a1ecc9",
@@ -51,7 +43,7 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "WASD",
+                    "name": "WASD Keys",
                     "id": "92b5ed5e-3a46-464c-bfb7-56a2075edd51",
                     "path": "2DVector",
                     "interactions": "",
@@ -129,28 +121,6 @@
                 },
                 {
                     "name": "",
-                    "id": "01ef3c06-2f35-4f0b-b117-549cc1ce37bb",
-                    "path": "<Gamepad>/buttonWest",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Dagger",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "73ca4c93-5b69-4dc1-aaf1-ab501c484565",
-                    "path": "<Keyboard>/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Dagger",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "e3c0a2c6-cba2-4a78-8b7a-b208a2aee2d4",
                     "path": "<Gamepad>/rightStick",
                     "interactions": "",
@@ -161,7 +131,7 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Mouse",
+                    "name": "Arrow Keys",
                     "id": "2734c4e4-b9ed-4895-a17e-544aa3a28bf5",
                     "path": "2DVector",
                     "interactions": "",
@@ -214,6 +184,82 @@
                     "action": "Shield",
                     "isComposite": false,
                     "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "TitleScreen",
+            "id": "900042ea-d0fc-48e7-be61-cf9200e366d4",
+            "actions": [
+                {
+                    "name": "Start",
+                    "type": "Button",
+                    "id": "04ba664f-e979-46f7-a7cf-648d45f94e11",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "db03620d-e0a0-4be6-bef2-9128064f1484",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8538a92f-a6cb-4813-a6b9-fbc92c3e91e1",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ControlsScreen",
+            "id": "cb8599b2-cabf-4daf-a2ca-93130be638f0",
+            "actions": [
+                {
+                    "name": "Continue",
+                    "type": "Button",
+                    "id": "83d549d7-4507-48ea-baa4-415fe8b1dd1c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "86bbbb60-573b-41ea-9e7a-b8535028e44d",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Continue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "da8b6866-da1a-4ec4-8687-725c82f7a26e",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Continue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
